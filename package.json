@@ -1,0 +1,27 @@
+{
+  "name": "githubcliente",
+  "version": "1.0.0",
+  "description": "Consultar Perfiles de GitHub",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtorresm/GitHubCliente.git"
+  },
+  "keywords": [],
+  "author": "Victor Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtorresm/GitHubCliente/issues"
+  },
+  "homepage": "https://github.com/vtorresm/GitHubCliente#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
